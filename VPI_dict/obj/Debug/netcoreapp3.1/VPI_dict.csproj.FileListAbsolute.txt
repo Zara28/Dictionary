@@ -1,0 +1,11 @@
+D:\моя папка\институт\впи\dict\VPI_dict\bin\Debug\netcoreapp3.1\VPI_dict.exe
+D:\моя папка\институт\впи\dict\VPI_dict\bin\Debug\netcoreapp3.1\VPI_dict.deps.json
+D:\моя папка\институт\впи\dict\VPI_dict\bin\Debug\netcoreapp3.1\VPI_dict.runtimeconfig.json
+D:\моя папка\институт\впи\dict\VPI_dict\bin\Debug\netcoreapp3.1\VPI_dict.runtimeconfig.dev.json
+D:\моя папка\институт\впи\dict\VPI_dict\bin\Debug\netcoreapp3.1\VPI_dict.dll
+D:\моя папка\институт\впи\dict\VPI_dict\bin\Debug\netcoreapp3.1\VPI_dict.pdb
+D:\моя папка\институт\впи\dict\VPI_dict\obj\Debug\netcoreapp3.1\VPI_dict.csprojAssemblyReference.cache
+D:\моя папка\институт\впи\dict\VPI_dict\obj\Debug\netcoreapp3.1\VPI_dict.AssemblyInfoInputs.cache
+D:\моя папка\институт\впи\dict\VPI_dict\obj\Debug\netcoreapp3.1\VPI_dict.AssemblyInfo.cs
+D:\моя папка\институт\впи\dict\VPI_dict\obj\Debug\netcoreapp3.1\VPI_dict.dll
+D:\моя папка\институт\впи\dict\VPI_dict\obj\Debug\netcoreapp3.1\VPI_dict.pdb

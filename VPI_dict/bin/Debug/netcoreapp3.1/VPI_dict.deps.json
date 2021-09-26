@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "VPI_dict/1.0.0": {
+        "runtime": {
+          "VPI_dict.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VPI_dict/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
