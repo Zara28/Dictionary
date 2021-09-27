@@ -7,7 +7,10 @@ namespace VPI_dict
     {
         static void Main(string[] args)
         {
-            int n = 0;
+            int ccount=0;
+            int n = 202;
+            bool verno;
+
             Console.WriteLine("Привет, это ИТ-словарь\n");
             while (n!=101)
             {
@@ -33,7 +36,12 @@ namespace VPI_dict
                 n = Convert.ToInt32(Console.ReadLine());
                 try
                 {
+                    Console.Clear();
+
                     Console.WriteLine(openWith[n]);
+                    Console.WriteLine();
+                    Console.WriteLine();
+
                 }
                 catch
                 {
