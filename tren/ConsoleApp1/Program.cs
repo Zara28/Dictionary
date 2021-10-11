@@ -91,6 +91,8 @@ namespace ConsoleApp1
                         break;
                     }
                     sum += ccount;
+
+                    Console.WriteLine("Ваш общий счет: " + Convert.ToString(ccount));
                     Console.Clear();
                 }
 

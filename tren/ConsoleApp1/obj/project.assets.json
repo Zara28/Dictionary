@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\моя папка\\институт\\впи\\tren\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "D:\\моя папка\\институт\\впи\\dict\\tren\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "D:\\моя папка\\институт\\впи\\tren\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectPath": "D:\\моя папка\\институт\\впи\\dict\\tren\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "D:\\моя папка\\институт\\впи\\tren\\ConsoleApp1\\obj\\",
+      "outputPath": "D:\\моя папка\\институт\\впи\\dict\\tren\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
