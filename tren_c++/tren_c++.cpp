@@ -6,18 +6,17 @@
 #include <fstream> // подключаем файлы
 #include <clocale>
 #include <windows.h>
-
 #include "stdio.h"
 using namespace std;
 int main()
 {
 
-    SetConsoleOutputCP(65001);
-    SetConsoleCP(65001);
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
     setlocale(LC_ALL, "rus");
 
     int n = 0;
-
+    int sum = 0;
     while (n != 101)
     {
         int ccount = 0;
@@ -50,33 +49,23 @@ int main()
             cout << "Произошла ошибка. Выберите снова";
             continue;
         }
+        cout << "\n";
         ifstream file(path); // файл из которого читаем (для линукс путь будет выглядеть по другому)
         int i = 0;
-        while (getline(file, dop[i])) { // пока не достигнут конец файла класть очередную строку в переменную (s)
-                cout << dop[i] << endl;
-                i++;// выводим на экран
-       // обязательно закрываем файл что бы не повредить его
-          /*  try
-            {
-                using (StreamReader sr = new StreamReader(path))
-                {
-                    for (int i = 0; i < 50; i++)
-                    {
-                        string s = sr.ReadLine();
-                        pon.Add(s.Split(";")[0]);
-                        opr.Add(s.Split(";")[1].ToLower());
-
-                    }
-
-                }
-            }
-
+        while (getline(file, dop[i]))
+        { // пока не достигнут конец файла класть очередную строку в переменную (s)
+            pon[i] = dop[i].substr(0, dop[i].find(";"));
+            opr[i] = dop[i].substr(dop[i].find(";"), dop[i].find("\n"));
+            i++;// выводим на экран
+   // обязательно закрываем файл что бы не повредить его
+        }
             while (n != 100)
             {
-                Random rand = new Random();
-                int r = rand.Next(0, 49);
-                Console.WriteLine(opr[r]);
-                string ans = Console.ReadLine().ToLower();
+               
+                int r = rand()%50+1;
+                cout<<opr[r];
+                string ans;
+                cin >> ans;
                 if (ans == pon[r])
                 {
                     ccount += 1;
@@ -84,30 +73,25 @@ int main()
                 else if (ans == "100")
                 {
                     n = 100;
-                    Console.WriteLine("Ваш счет: " + Convert.ToString(ccount));
-                    Console.Clear();
+                    cout<<"Ваш счет: " << ccount;
                     continue;
                 }
                 else if (ans == "101") {
                     n = 101;
-                    Console.WriteLine("Ваш счет: " + Convert.ToString(ccount));
+                    cout<<"Ваш счет: " << ccount;
                     break;
                 }
                 sum += ccount;
 
-                Console.WriteLine("Ваш общий счет: " + Convert.ToString(ccount));
-                Console.Clear();
+                cout<<"Ваш общий счет: " << ccount;
             }
 
-        }
 
-        Console.WriteLine("Ваш общий счет: " + Convert.ToString(sum));
-    }
-    */
+       cout<<"Ваш общий счет: "<< sum;
 
 
                 file.close();
-        }
+        
         delete[] opr;
 
         delete[] pon;
